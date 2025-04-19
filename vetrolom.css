@@ -1,0 +1,34 @@
+h1,h3 {
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+img #Ветерок {
+    width: 90%;
+    height: auto;
+}
+
+
+background-image{
+    contain: style;
+}
+
+button{
+    display: hidden;
+    border-radius: 15px;
+}
+
+#intro {
+    margin-top: 15px;
+}
+body { background: url(./images/Фон1.webp); }
+
+.content {
+    display: none;
+}
+
+color{
+    background-color: azure;
+}
