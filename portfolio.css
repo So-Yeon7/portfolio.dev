@@ -6,7 +6,7 @@ body {
     scroll-behavitor: smooth;
 }
 button{
-    display: none;
+    display: block;
     background-color: beige;
     border:none;
     padding: 12px 24px;
@@ -18,7 +18,9 @@ button{
     rgba(0,0,0,0.1);
     transition: background-color 0.3s
     ease;
-    margin:10px
+    margin: 10px auto;
+    width: 90%;
+    max-width: 300px;
 }
 
 button:hover {
