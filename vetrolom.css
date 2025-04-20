@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+   min-height: 100vh;
   background: 
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('./images/Фон1.webp');
@@ -9,8 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  min-height: 100vh;
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h1, h3 {
@@ -31,15 +31,18 @@ h1, h3 {
 button {
   display: inline-block;
   visibility: visible;
-  margin: 10px;
-  padding: 10px 15px;
+  margin: 8px;
+  padding: 12px 18px;
   border: none;
   border-radius: 15px;
   background-color: #7CF9C0;
   color: black;
   font-weight: bold;
+  font-size: 16px
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
+  box-shadow:0 4px 8px 
+rgba(0,0,0,0.2);
 }
 
 button:hover {
@@ -52,4 +55,9 @@ button:hover {
 
 .content {
   display: block;
+}
+
+html,body {
+  height: 100px;
+  overscrooll-behavior-y: none;
 }
