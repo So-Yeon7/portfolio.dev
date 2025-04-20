@@ -29,8 +29,8 @@ h1, h3 {
 button {
   display: inline-block;
   visibility: visible;
-  margin: 8px;
-  padding: 12px 18px;
+  margin: 10px;
+  padding: 10px 15px;
   border: none;
   border-radius: 15px;
   background-color: #7CF9C0;
@@ -51,3 +51,4 @@ button:hover {
 .content {
   display: block;
 }
+
