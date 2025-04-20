@@ -1,3 +1,9 @@
+body {
+    background:
+linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/Фон1.webp');
+background-size: cover;
+}
+
 h1,h3 {
     text-align: center;
     width: 80%;
@@ -5,34 +11,23 @@ h1,h3 {
     margin-bottom: 30px;
     font-weight: bold;
 }
-img #Ветерок {
+#Ветерок {
     width: 90%;
     height: auto;
 }
 
 
-background-image{
-    contain: style;
-}
 
 button{
-    display: hidden;
+    display: none;
+    vasibility: hidden;
     border-radius: 15px;
 }
 
 #intro {
     margin-top: 15px;
 }
-body {
-    background:
-linear-grandient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/Фон1.webp');
-background-size: cover;
-}
 
 .content {
     display: none;
-}
-
-color{
-    background-color: azure;
 }
