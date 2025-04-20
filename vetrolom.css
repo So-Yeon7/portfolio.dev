@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-   min-height: 100vh;
   background: 
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('./images/Фон1.webp');
@@ -10,7 +9,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  box-sizing: border-box;
 }
 
 h1, h3 {
@@ -38,11 +36,8 @@ button {
   background-color: #7CF9C0;
   color: black;
   font-weight: bold;
-  font-size: 16px
   cursor: pointer;
-  transition: background 0.3s ease;
-  box-shadow:0 4px 8px 
-rgba(0,0,0,0.2);
+  transition: background 0.3s;
 }
 
 button:hover {
@@ -56,4 +51,3 @@ button:hover {
 .content {
   display: block;
 }
-
