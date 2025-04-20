@@ -1,31 +1,53 @@
 body {
-    inear-grandient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/Фон1.webp');
-background-size: cover;
-
-h1,h3 {
-    text-align: center;
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./images/Фон1.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
+
+h1, h3 {
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  font-weight: bold;
+}
+
 #Ветерок {
-    width: 90%;
-    height: auto;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
+button {
+  display: inline-block;
+  visibility: visible;
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #7CF9C0;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
 
-
-button{
-    display: none;
-    vasibility: hidden;
-    border-radius: 15px;
+button:hover {
+  background-color: #5fcb9d;
 }
 
 #intro {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .content {
-    display: hidden;
+  display: block;
 }
