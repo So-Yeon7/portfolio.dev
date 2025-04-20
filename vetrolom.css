@@ -1,6 +1,6 @@
 body {
-    background-color: url('./images/Фон1.webp');
-}
+    inear-grandient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/Фон1.webp');
+background-size: cover;
 
 h1,h3 {
     text-align: center;
@@ -27,5 +27,5 @@ button{
 }
 
 .content {
-    display: none;
+    display: hidden;
 }
